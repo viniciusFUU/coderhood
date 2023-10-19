@@ -29,8 +29,8 @@ acompanhamento dos scores de seus alunos.
 | Sprint  | Nome | Data inicio  | Data Fim | Status |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | --  | KickOff   | 28/08   | 06/09 |✔️ | 
-| <a href="https://github.com/CoderHood-Fatec/ProjetoCoderHood/blob/main/Sprints_docs/Sprint1.md">1</a>  | Sprint 1   | 04/09   | 24/09 |✔️ | 
-| <a href="https://github.com/CoderHood-Fatec/ProjetoCoderHood/blob/main/Sprints_docs/Sprint2.md">2</a>  | Sprint 2   | 25/09   | 15/10 |✔️ |
+| 1  | Sprint 1   | 04/09   | 24/09 |✔️ | 
+| 2  | Sprint 2   | 25/09   | 15/10 |✔️ |
 | 3  | Sprint 3   | 16/10   | 05/11 | | 
 | 4  | Sprint 4   | 06/11   | 26/11 | | 
 | -- | Feira de Soluções  | 12/12  | 12/12 ||
@@ -71,17 +71,15 @@ M2)
 ## Backlog
 
 
-| Ranking de Prioridades | Prioridade | User Stories | Sprint 
-| ------------- | ------------- | ------------- | ------------- 
-| 1º | Alta |  **Gerenciamento de Turmas:** O professor precisa cadastrar, visualizar e remover as turmas no sistema para que seja possível gerenciamento e acompanhamento dos alunos durante o processo de ensino  | [#2]  | 
-| 2º | Alta | **Gerenciamento de Alunos:** O professor precisa cadastrar, visualizar e remover em uma turma já existente no sistema para que possa realizar seu acompanhamento acadêmico | [#2]  |
-| 3º | Alta | **Inserir Notas:** O professor precisa inserir as notas pros alunos para avaliá-los após a data final de um ciclo de entregas | [#2]  |
-| 5º | Média | **Configuração de Parametros Globais:** Ao enviar uma atividade para os alunos, o professor deve ser capaz de configurar parametros como prazo da atividade para todas as turmas, visando facilitar o processo para ele  | [#3] |
-| 6º | Média | **Grupo de Alunos:** O professor precisa dividir a turma em grupos para que posteriormente possa atribuir uma mesma nota para todos os seus integrantes, além de acompanhar a performance por grupo na página de relatórios| [#3] |
-| 4º | Alta | **Gerenciamento de Ciclo de Entregas:** O Professor precisa criar atividades  o ciclo de entregas, para isso precisa ser delimitado a data inicial e a data final  | [#3] |
-| 8º | Baixa | **Painel de Relatórios:** O professor precisa ter uma visão consolidada com as principais métricas que permitam-o acompanhar a performance de sua turma, grupos e alunos| [#3] |
-| 7º | Média | **Importação dos Dados:** O professor precisa extrair relatórios e listas contendo os alunos das turmas ou grupos para poder realizar análises e preparar relatórios para a secretária.| [#4] |
-| 9º | Baixa | **Carga de Alunos**: Permitir o professor carregar informações em massa para aumentar sua eficiência de trabalho | [#4] |
+| Ranking de Prioridades | Prioridade | User Stories | Sprint | Status |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1º | Alta |  **Tela de Acesso:** Tela que em princípio não terá validação, mas dará acesso à tela HOME.  | [#2]  |✔️| 
+| 2º | Alta |  **Cadastrar turma:** O professor precisa cadastrar as turmas no sistema para que seja possível o gerenciamento e acompanhamento dos alunos durante o processo de ensino.  | [#2]  |✔️| 
+| 3º | Alta | **Visualizar Turmas:** Ao cadastrar turma, será adicionado na tela um link com o nome da turma, que ao clicar, enviará o professor para a tela da turma. | [#2]  |✔️| 
+| 4º | Alta | **Cadastrar Aluno:** O professor terá acesso ao cadastramento de alunos ao entrar na página das turmas. | [#2]  |✔️| 
+| 5º | Média | **Visualizar Aluno:** O professor precisa visualizar os dados dos alunos (nome, RA) ao entrar na página da turma.  | [#2] |✔️| 
+| 6º | Média | **Lançar Notas:** O professor precisa inserir as notas pros alunos para avaliá-los após a data final de um ciclo de entregas. | [#2] |✔️| 
+| 7º | Alta | **Visualizar Notas:** O professor precisa visualizar as notas dos alunos, após uma inserção ou remoção de dados (notas).  | [#2] |⏳|
 
 ## Fluxos
 
@@ -121,8 +119,5 @@ Rennerson Vasconcelos Afonso |Desenvolvedor|[<img src="https://camo.githubuserco
 <div align="Left">
     
   <img src="https://github.com/CoderHood-Fatec/ProjetoCoderHood/assets/142257303/64bcacc5-7180-4467-af93-4ece29788a50" style="margin: 20px; width: 50px; height: 50px;" />
-  <img src="https://github.com/CoderHood-Fatec/ProjetoCoderHood/assets/142257303/5a7d9f2a-8c71-4a65-9b6c-c8037925f3c6" style="margin: 20px; width: 50px; height: 50px;" />
-  <img src="https://github.com/CoderHood-Fatec/ProjetoCoderHood/assets/142257303/01324c3e-137d-4dc1-9c1f-322354594786" style="margin: 20px; width: 50px; height: 50px;" />
 
 </div>
-
